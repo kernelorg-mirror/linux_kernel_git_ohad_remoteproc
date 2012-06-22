@@ -13,6 +13,7 @@ config OMAP_REMOTEPROC
 	depends on ARCH_OMAP4
 	depends on OMAP_IOMMU
 	depends on OMAP_MBOX_FWK
+	depends on CMA
 	select REMOTEPROC
 	select RPMSG
 	help
