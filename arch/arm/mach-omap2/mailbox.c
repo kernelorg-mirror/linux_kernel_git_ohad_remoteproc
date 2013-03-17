@@ -17,7 +17,7 @@
 #include <linux/io.h>
 #include <linux/pm_runtime.h>
 
-#include <plat/mailbox.h>
+#include <linux/platform_data/mailbox.h>
 
 #include "soc.h"
 
